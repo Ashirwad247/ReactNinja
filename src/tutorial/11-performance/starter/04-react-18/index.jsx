@@ -1,11 +1,11 @@
 import { useState, useTransition } from "react";
+import SlowComponent from "./SlowComponent";
 const LatestReact = () => {
   const [text, setText] = useState("");
   const [items, setItems] = useState([]);
   const [isPending, startTransition] = useTransition();
   const handleChange = (e) => {
     setText(e.target.value);
-
     startTransition(() => {
       const newItems = Array.from({ length: 5000 }, (_, index) => {
         return (
@@ -42,6 +42,7 @@ const LatestReact = () => {
           {items}
         </div>
       )}
+      <SlowComponent></SlowComponent>
     </section>
   );
 };
