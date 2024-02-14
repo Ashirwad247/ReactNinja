@@ -2,6 +2,32 @@
 
 ## React Course
 
+## React setup
+
+{
+"editor.fontSize": 26,
+"files.autoSave": "off",
+"editor.tabSize": 1,
+"editor.wordWrap": "on",
+"terminal.integrated.fontSize": 26,
+"emmet.includeLanguages": {
+"javascript": "javascriptreact"
+},
+"editor.minimap.enabled": false,
+"prettier.jsxSingleQuote": true,
+"prettier.semi": false,
+"prettier.singleQuote": true,
+"javascript.updateImportsOnFileMove.enabled": "always",
+"editor.formatOnPaste": true,
+"editor.formatOnSave": true,
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"[javascript]": {
+"editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"editor.cursorBlinking": "expand",
+"window.zoomLevel": 2
+}
+
 [My React Course](https://www.udemy.com/course/react-tutorial-and-projects-course/?referralCode=FEE6A921AF07E2563CEF)
 
 ## Support
